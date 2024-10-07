@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="description" content="Adriano Jimenez Hidalgo - Software Developer and Web Developer focused on modern, minimalistic solutions. Check out my portfolio for contact information, experience and more.">
+    <meta name="keywords" content="software development, web development, design, Adriano Jimenez Hidalgo, portfolio">
+    <meta name="author" content="Adriano Jimenez Hidalgo">
+    <title>Adriano Jimenez Hidalgo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Adriano</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <!--<li><a href="#projects">Projects</a></li>-->
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -30,26 +31,21 @@
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <!--<li><a href="#projects" onclick="toggleMenu()">Projects</a></li>-->
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Adriano profile picture">
+            <img src="./assets/profile-pic.JPG" alt="Adriano Jimenez Hidalgo profile picture">
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
+            <p class="section__text__p1">Hi, I'm</p>
             <h1 class="title">Adriano Jimenez Hidalgo</h1>
             <p class="section__text__p2">Developer</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/Lebenslauf[1453].pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-            </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/adriano-jimenez-hidalgo'">
-                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/adriianoo'">
+                <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/adriano-jimenez-hidalgo'">
+                <img src="./assets/github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/adriianoo'">
             </div>
         </div>
     </section>
@@ -58,23 +54,23 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic">
+                <img src="./assets/about-pic.png" alt="Animated Adriano Jimenez Hidalgo profile picture" class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="experience icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>2 years<br>Apprentice Application Developer</p>
+                        <!--<img src="./assets/education.png" alt="Education icon" class="icon">-->
+                        <h3>Education</h3>
+                        <p>Application Developer</p>
                     </div>
                     <div class="details-container">
-                        <img src="./assets/education.png" alt="Education icon" class="icon">
-                        <h3>Education</h3>
-                        <p>WIFI Linz<br>Course Application Developer</p>
+                        <!--<img src="./assets/experience.png" alt="experience icon" class="icon">-->
+                        <h3>Passion</h3>
+                        <p>Passionate about problem solving</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Growing up in a world of video games, I was fascinated on how things work behind the scenes. This interest led me to programming and the decision to start a career as a Software Developer. I'm 19 years old and still trying to pursue my hobbies, for example playing basketball, as a balance to the tech world. I also love trying out new things and a dream of mine is to travel the world and meet great people.</p>
+                    <p>Growing up in a world of video games, I was fascinated on how things work behind the scenes. This interest led me to programming and the decision to start a career as a Software Developer. I'm 19 years old with a growth mindset and I always try to learn new things. Besides that, I love travelling various places and meeting great people.</p>
                 </div>
             </div>
         </div>
@@ -155,33 +151,6 @@
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
-    <!-- 
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Project</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="project-container color-container">  Das kopieren als Vorlage für mehr Projekte
-                    <div class="article-container">
-                        <img src="./assets/cookhouse.jpg" alt="Project 1" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Cookhouse</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/adriianoo/cookhouse'">
-                            Github
-                        </button>
-                        
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='./#projects'">
-                            Live Demo
-                        </button>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
-    </section>
-    -->
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
@@ -190,12 +159,6 @@
                 <img src="./assets/email.png" alt="Email icon" class="icon contact-icon">
                 <p><a href="mailto:adrijimenezh@hotmail.com">adrijimenezh@hotmail.com</a></p>
             </div>
-            <!--
-            <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-                <p><a href="https:/www.linkedin.com">LinkedIn</a></p>
-            </div>
-            -->
         </div>
     </section>
     <footer>
@@ -204,7 +167,6 @@
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <!--<li><a href="#projects">Projects</a></li>-->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
